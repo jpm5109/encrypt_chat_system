@@ -1,9 +1,12 @@
 # Virtual environment
 venv/
+env/
 
 # Python cache
 __pycache__/
 *.pyc
+*.py[cod]
+*$py.class
 
 # Environment variables
 .env
@@ -16,3 +19,12 @@ __pycache__/
 
 # push file
 push.sh
+
+# Node / React
+node_modules/
+dist/
+build/
+
+# Firebase
+.firebase/
+firebase-debug.log
